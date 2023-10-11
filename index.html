@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Tekst Klik</title>
+</head>
+<body>
+    <h1 id="mijnTekst" onclick="veranderTekst()">Dit is een voorbeeldtekst.</h1>
+
+    <script>
+        function veranderTekst() {
+            var element = document.getElementById("mijnTekst");
+            element.innerHTML = "De tekst is aangepast!";
+        }
+    </script>
+</body>
+</html>
